@@ -1,0 +1,35 @@
+{
+  "technical_skills": [
+    "python", "java", "javascript", "typescript", "c#", "c++", "rust", "go",
+    "sql", "nosql", "mongodb", "postgresql", "mysql", "redis",
+    "aws", "azure", "gcp", "kubernetes", "docker", "terraform",
+    "react", "vue", "angular", "node", "django", "flask",
+    "machine learning", "deep learning", "nlp", "computer vision",
+    "tensorflow", "pytorch", "scikit-learn", "pandas", "numpy",
+    "git", "ci/cd", "jenkins", "github", "gitlab", "agile", "scrum",
+    "rest", "graphql", "microservices", "api", "json", "xml"
+  ],
+  "soft_skills": [
+    "communication", "leadership", "teamwork", "problem-solving",
+    "project management", "agile", "scrum", "analytical",
+    "time management", "collaboration", "critical thinking"
+  ],
+  "matching_weights": {
+    "skill_match_weight": 0.4,
+    "semantic_similarity_weight": 0.6
+  },
+  "search_config": {
+    "embedding_model": "all-MiniLM-L6-v2",
+    "top_k_results": 3,
+    "similarity_threshold": 0.5
+  },
+  "llm_config": {
+    "model": "mistral",
+    "temperature": 0.7,
+    "max_tokens": 1000
+  },
+  "ocr_config": {
+    "language": "eng",
+    "tesseract_path": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+  }
+}
